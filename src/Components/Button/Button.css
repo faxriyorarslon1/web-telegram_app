@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #cab320;
+}
+
+.btn {
+    padding: 0.4rem 0.8rem 0.3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    width: 100%;
+    box-shadow: 1px -3px 52px -5px rgba(0, 0, 0, 0.77);
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.btn.add {
+    background-color: var(--primary-color);
+}
+
+.btn.remove {
+    background-color: tomato;
+    margin-left: 6px;
+}
+
+.btn.checkout {
+    background-color: rgb(19, 19, 52);
+    width: 60px;
+    padding: 0.2rem 0.8rem 0.1rem;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: none;
+    margin-right: 5px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn.add:hover {
+    background-color: #cab320;
+}
+
+.btn.add:active {
+    background-color: #ad9a1c;
+}
+
+.btn.remove:hover {
+    background-color: rgb(209, 83, 61);
+}
+.btn.remove:active {
+    background-color: rgb(185, 73, 54);
+}
+
+.btn.checkout:hover {
+    background-color: rgb(19, 19, 52);
+}
+.btn.checkout:active {
+    background-color: rgb(19, 19, 52);
+}

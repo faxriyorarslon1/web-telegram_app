@@ -1,0 +1,114 @@
+.backButton__div {
+    margin-top: 10px;
+}
+
+.backButton__div button {
+    margin-left: 15px;
+    padding: 6px 12px;
+    background-color: #e0c521;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.backButton__div button span {
+    font-size: 20px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3px;
+}
+
+.product__card {
+    max-width: 600px;
+    margin: 10px 10px 20px;
+    padding: 10px;
+    border: 1px solid #e0c521;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.product__info {
+    margin: 0 10px;
+}
+
+.addButton button {
+    line-height: 29px;
+}
+
+.product__info-item {
+    border-bottom: 1px solid #e0c521;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.product__info .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.product__info .btn-container img {
+    width: 30px;
+    height: 26px;
+}
+
+.card__title {
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.card__price {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: rgb(227, 112, 30);
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image__container img {
+    width: 100%;
+    transition: all 0.3s;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.image__container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}

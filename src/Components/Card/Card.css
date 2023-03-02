@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #e0c521;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    max-height: 450px;
+    border: 1px solid var(--primary-color);
+    padding: 2px;
+    margin: 13px 10px;
+    position: relative;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.card__title {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.card__moreinfo {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.image__container .card__price {
+    font-weight: bold;
+}
+
+.image__container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.image__container img {
+    width: 100%;
+    transition: all 0.3s;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.btn-container img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card__price {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: rgb(227, 112, 30);
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card__badge {
+    position: absolute;
+    top: 8px;
+    right: 13px;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(227, 112, 30);
+    border-radius: 50%;
+    transform: translate(20px, -20px) scale(1);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid rgb(227, 112, 30);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    animation: scaleanimation 1s ease infinite;
+    opacity: 0.8;
+}
+
+@keyframes scaleanimation {
+    to {
+        transform: translate(20px, -20px) scale(1.05);
+        opacity: 1;
+    }
+}
+
+.card__badge--hidden {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        margin: 5px 2px;
+    }
+}
