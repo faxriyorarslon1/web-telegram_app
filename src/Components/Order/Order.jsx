@@ -11,7 +11,7 @@ import count1040 from "../../images/10-40count.webp";
 import count50100 from "../../images/50-100count.webp";
 import count100 from "../../images/100count.webp";
 import "./order.css";
-
+// C:\Users\faxri\Documents\FrontAsicxBot\web_telegram_app\src
 const barndOption = [
     {
         value: "ALL BRAND",
@@ -20,9 +20,8 @@ const barndOption = [
                 style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
                     color: "#000",
-                    fontSize: 18,
+                    fontSize: 17,
                 }}
             >
                 <img
@@ -31,7 +30,6 @@ const barndOption = [
                     width={200}
                     style={{ marginRight: 10, width: 200, height: 40 }}
                 />
-                <span>ALL BRAND</span>
             </span>
         ),
     },
@@ -42,9 +40,8 @@ const barndOption = [
                 style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
                     color: "#000",
-                    fontSize: 18,
+                    fontSize: 17,
                 }}
             >
                 <img
@@ -52,7 +49,6 @@ const barndOption = [
                     alt="whatsminer"
                     style={{ marginRight: 10, width: 200, height: 40 }}
                 />
-                <span>WHATSMINER</span>
             </span>
         ),
     },
@@ -63,9 +59,8 @@ const barndOption = [
                 style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
                     color: "#000",
-                    fontSize: 18,
+                    fontSize: 17,
                 }}
             >
                 <img
@@ -74,7 +69,6 @@ const barndOption = [
                     width={200}
                     style={{ marginRight: 10, width: 200, height: 40 }}
                 />
-                <span>BITMAIN</span>
             </span>
         ),
     },
@@ -85,9 +79,8 @@ const barndOption = [
                 style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
                     color: "#000",
-                    fontSize: 18,
+                    fontSize: 17,
                 }}
             >
                 <img
@@ -96,7 +89,6 @@ const barndOption = [
                     width={200}
                     style={{ marginRight: 10, width: 200, height: 40 }}
                 />
-                <span>CANAAN</span>
             </span>
         ),
     },
@@ -110,16 +102,15 @@ const countOption = [
                 style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
                     color: "#000",
-                    fontSize: 18,
+                    fontSize: 17,
                 }}
             >
                 <img
                     src={count1040}
                     alt="count 10-40"
                     width={200}
-                    style={{ marginRight: 10, width: 70, height: 50 }}
+                    style={{ marginRight: 10, width: 200, height: 40 }}
                 />
                 <span>MOQ 10-40 </span>
             </span>
@@ -132,16 +123,15 @@ const countOption = [
                 style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
                     color: "#000",
-                    fontSize: 18,
+                    fontSize: 17,
                 }}
             >
                 <img
                     src={count50100}
                     alt="count 50-100"
                     width={200}
-                    style={{ marginRight: 10, width: 70, height: 50 }}
+                    style={{ marginRight: 10, width: 200, height: 40 }}
                 />
                 <span>MOQ 50-100</span>
             </span>
@@ -154,16 +144,15 @@ const countOption = [
                 style={{
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
                     color: "#000",
-                    fontSize: 18,
+                    fontSize: 17,
                 }}
             >
                 <img
                     src={count100}
                     alt="count 100+"
                     width={200}
-                    style={{ marginRight: 10, width: 70, height: 50 }}
+                    style={{ marginRight: 10, width: 200, height: 40 }}
                 />
                 <span>MOQ 100+</span>
             </span>
