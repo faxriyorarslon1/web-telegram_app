@@ -97,17 +97,17 @@ const Product = ({ mainer, onAdd, userId }) => {
                                 <h4>Price: </h4>
                             </div>{" "}
                             <div>
-                                <p>{product.price} $</p>
+                                <p>{product.price} $USD/T</p>
                             </div>
                         </div>
-                        <div className="product__info-item">
+                        {/* <div className="product__info-item">
                             <div className="">
                                 <h4></h4>
                             </div>{" "}
                             <div>
                                 <p>{product.priceper} $USD / PER</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="product__info-item">
                             <div className="">
                                 <h4></h4>
