@@ -10,8 +10,12 @@ import whatsminer from "../../images/whatsminer.webp";
 import count1040 from "../../images/10-40count.webp";
 import count50100 from "../../images/50-100count.webp";
 import count100 from "../../images/100count.webp";
+import asia from "../../images/asia.webp";
+import europa from "../../images/europa.webp";
+import usa from "../../images/usa.webp";
+import canada from "../../images/canada.webp";
 import "./order.css";
-// C:\Users\faxri\Documents\FrontAsicxBot\web_telegram_app\src
+
 const barndOption = [
     {
         value: "ALL BRAND",
@@ -28,7 +32,7 @@ const barndOption = [
                     src={allbrand}
                     alt="allbarnd"
                     width={200}
-                    style={{ marginRight: 10, width: 200, height: 40 }}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
                 />
             </span>
         ),
@@ -47,7 +51,7 @@ const barndOption = [
                 <img
                     src={whatsminer}
                     alt="whatsminer"
-                    style={{ marginRight: 10, width: 200, height: 40 }}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
                 />
             </span>
         ),
@@ -67,7 +71,7 @@ const barndOption = [
                     src={bitmain}
                     alt="bitmain"
                     width={200}
-                    style={{ marginRight: 10, width: 200, height: 40 }}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
                 />
             </span>
         ),
@@ -87,7 +91,7 @@ const barndOption = [
                     src={canaan}
                     alt="canaan"
                     width={200}
-                    style={{ marginRight: 10, width: 200, height: 40 }}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
                 />
             </span>
         ),
@@ -110,7 +114,7 @@ const countOption = [
                     src={count1040}
                     alt="count 10-40"
                     width={200}
-                    style={{ marginRight: 10, width: 200, height: 40 }}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
                 />
                 <span>MOQ 10-40 </span>
             </span>
@@ -131,7 +135,7 @@ const countOption = [
                     src={count50100}
                     alt="count 50-100"
                     width={200}
-                    style={{ marginRight: 10, width: 200, height: 40 }}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
                 />
                 <span>MOQ 50-100</span>
             </span>
@@ -152,7 +156,7 @@ const countOption = [
                     src={count100}
                     alt="count 100+"
                     width={200}
-                    style={{ marginRight: 10, width: 200, height: 40 }}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
                 />
                 <span>MOQ 100+</span>
             </span>
@@ -163,23 +167,87 @@ const countOption = [
 const locationOption = [
     {
         value: "USA",
-        label: "USA",
+        label: (
+            <span
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "#000",
+                    fontSize: 17,
+                }}
+            >
+                <img
+                    src={usa}
+                    alt="USA"
+                    width={200}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
+                />
+                <span>USA</span>
+            </span>
+        ),
     },
     {
         value: "CANADA",
-        label: "CANADA",
+        label: (
+            <span
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "#000",
+                    fontSize: 17,
+                }}
+            >
+                <img
+                    src={canada}
+                    alt="CANADA"
+                    width={200}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
+                />
+                <span>CANADA</span>
+            </span>
+        ),
     },
     {
         value: "ASIA",
-        label: "ASIA",
+        label: (
+            <span
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "#000",
+                    fontSize: 17,
+                }}
+            >
+                <img
+                    src={asia}
+                    alt="ASIA"
+                    width={200}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
+                />
+                <span>ASIA</span>
+            </span>
+        ),
     },
     {
         value: "EUROPA",
-        label: "EUROPA",
-    },
-    {
-        value: "LATIN AMERICA",
-        label: "LATIN AMERICA",
+        label: (
+            <span
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "#000",
+                    fontSize: 17,
+                }}
+            >
+                <img
+                    src={europa}
+                    alt="EUROPA"
+                    width={200}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
+                />
+                <span>EUROPA</span>
+            </span>
+        ),
     },
 ];
 
