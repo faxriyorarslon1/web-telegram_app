@@ -71,7 +71,9 @@ function Card({ food, onAdd, onRemove, cartItems }) {
                                 alt={title}
                             />
                         </motion.div>
-                        <span className="card__price">{price} $</span>
+                        <span className="card__price">
+                            {Number.parseFloat(price).toFixed(0)} $
+                        </span>
                     </div>
                     <h4 className="card__title">{title}</h4>
                     <Link to={`/product/${id}`} className="card__moreinfo">

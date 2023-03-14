@@ -9,7 +9,7 @@ function Cart({ cartItems, onCheckout }) {
         <div className="cart__container">
             <span className="price__total">
                 Total Price:{" "}
-                <span className="bold">{totalPrice.toFixed(2)}$</span>
+                <span className="bold">{totalPrice.toFixed(1)}$</span>
             </span>
             <div className="cart__shopping">
                 <Button

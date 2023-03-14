@@ -97,7 +97,12 @@ const Product = ({ mainer, onAdd, userId }) => {
                                 <h4>Price: </h4>
                             </div>{" "}
                             <div>
-                                <p>{product.price} $USD/T</p>
+                                <p>
+                                    {Number.parseFloat(product.price).toFixed(
+                                        0
+                                    )}{" "}
+                                    $USD/T
+                                </p>
                             </div>
                         </div>
                         {/* <div className="product__info-item">
@@ -114,8 +119,10 @@ const Product = ({ mainer, onAdd, userId }) => {
                             </div>{" "}
                             <div>
                                 <p>
-                                    {product.price * product.priceper} $USD /
-                                    UNIT
+                                    {Number.parseFloat(
+                                        product.price * product.priceper
+                                    ).toFixed(0)}{" "}
+                                    $USD / UNIT
                                 </p>
                             </div>
                         </div>
@@ -125,9 +132,11 @@ const Product = ({ mainer, onAdd, userId }) => {
                             </div>{" "}
                             <div>
                                 <p>
-                                    {product.price *
-                                        product.moq *
-                                        product.priceper}{" "}
+                                    {Number.parseFloat(
+                                        product.price *
+                                            product.moq *
+                                            product.priceper
+                                    ).toFixed(0)}{" "}
                                     $USD / MOQ
                                 </p>
                             </div>

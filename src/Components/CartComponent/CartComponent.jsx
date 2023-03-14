@@ -88,7 +88,7 @@ const CartComponent = ({
                                                 </td>
                                                 <td>{item.title}</td>
                                                 <td>
-                                                    {item.price?.toFixed(2)} $
+                                                    {item.price?.toFixed(1)} $
                                                 </td>
                                                 <td>
                                                     <div className="cart-buuton-container">
