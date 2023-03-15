@@ -14,6 +14,7 @@ import asia from "../../images/asia.webp";
 import europa from "../../images/europa.webp";
 import usa from "../../images/usa.webp";
 import canada from "../../images/canada.webp";
+import latinAmerica from "../../images/latinAmerica.webp";
 import "./order.css";
 
 const barndOption = [
@@ -246,6 +247,27 @@ const locationOption = [
                     style={{ marginRight: 10, width: 180, height: 40 }}
                 />
                 <span>EUROPA</span>
+            </span>
+        ),
+    },
+    {
+        value: "LATIN AMERICA",
+        label: (
+            <span
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "#000",
+                    fontSize: 17,
+                }}
+            >
+                <img
+                    src={latinAmerica}
+                    alt="LATIN AMERICA"
+                    width={200}
+                    style={{ marginRight: 10, width: 180, height: 40 }}
+                />
+                <span>LATIN AMERICA</span>
             </span>
         ),
     },
